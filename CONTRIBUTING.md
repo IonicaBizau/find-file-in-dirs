@@ -59,6 +59,6 @@ Contributions are more than welcome!
 
 Thanks! :sweat_smile:
 
-[1]: https://github.com/IonicaBizau/search-file-in-dirs/issues
+[1]: https://github.com/IonicaBizau/find-file-in-dirs/issues
 
 [2]: https://github.com/IonicaBizau/code-style
