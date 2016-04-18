@@ -3,15 +3,14 @@
 > Find a file in different directories.
 
 ## :cloud: Installation
-    
+
 ```sh
 $ npm i --save find-file-in-dirs
 ```
 
-            
+
 ## :clipboard: Example
 
-        
 
 ```js
 const searchFileInDirs = require("find-file-in-dirs");
@@ -41,9 +40,9 @@ searchFileInDirs(dirs, "a", (err, path, res) => {
     //   '/home/.../example/foo/a': true }
 });
 ```
-    
+
 ## :memo: Documentation
-        
+
 ### `findFileInDirs(dirs, file, cb)`
 Find a file in different directories.
 
@@ -52,14 +51,14 @@ Find a file in different directories.
 - **String** `file`: The file path.
 - **Function** `cb`: The callback function.
 
-        
+
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
 ## :scroll: License
-    
+
 [MIT][license] © [Ionică Bizău][website]
-    
+
 [paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
 [donate-now]: http://i.imgur.com/6cMbHOC.png
 
