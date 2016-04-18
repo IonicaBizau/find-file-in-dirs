@@ -1,8 +1,8 @@
 {
-  "name": "search-file-in-dirs",
-  "description": "Search a file in different directories.",
+  "name": "find-file-in-dirs",
+  "description": "Find a file in different directories.",
   "keywords": [
-    "search",
+    "find",
     "file",
     "in",
     "dirs",
@@ -19,14 +19,17 @@
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/IonicaBizau/search-file-in-dirs.git"
+    "url": "git+ssh://git@github.com/IonicaBizau/find-file-in-dirs.git"
   },
   "bugs": {
-    "url": "https://github.com/IonicaBizau/search-file-in-dirs/issues"
+    "url": "https://github.com/IonicaBizau/find-file-in-dirs/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/search-file-in-dirs#readme",
+  "homepage": "https://github.com/IonicaBizau/find-file-in-dirs#readme",
   "dependencies": {
-    "arrs-to-obj": "^1.0.0"
+    "arrs-to-obj": "^1.0.0",
+    "err": "^2.1.0",
+    "is-there": "^4.3.1",
+    "same-time": "^2.3.1"
   },
   "devDependencies": {
     "tester": "^1.3.1"
