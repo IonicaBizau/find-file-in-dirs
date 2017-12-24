@@ -10,7 +10,11 @@
 ## :cloud: Installation
 
 ```sh
-$ npm i --save find-file-in-dirs
+# Using npm
+npm install --save find-file-in-dirs
+
+# Using yarn
+yarn add find-file-in-dirs
 ```
 
 
